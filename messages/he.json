@@ -1,7 +1,52 @@
-
 {
   "HomePage": {
-    "title": "שלום",
-    "about": "עלינו"
+    "title": "שלום עולם!",
+    "about": "עבור לדף אודות"
+  },
+  "LoginPage": {
+    "title": "התחבר לחשבון שלך",
+    "fields": {
+      "email": "אימייל",
+      "password": "סיסמה"
+    },
+    "actions": {
+      "login": "התחבר"
+    },
+    "errors": {
+      "required": "אימייל וסיסמה נדרשים."
+    }
+  },
+  "ForgotPasswordPage": {
+    "title": "שחזור סיסמה",
+    "fields": {
+      "email": "אימייל"
+    },
+    "actions": {
+      "sendLink": "שלח קישור"
+    },
+    "messages": {
+      "success": "קישור לאיפוס הסיסמה נשלח לכתובת האימייל שלך."
+    },
+    "errors": {
+      "required": "אנא הכנס/י אימייל תקין."
+    }
+  },
+  "SignUpPage": {
+    "title": "הרשמה",
+    "fields": {
+      "name": "שם מלא",
+      "email": "אימייל",
+      "password": "סיסמה",
+      "confirmPassword": "אשר סיסמה"
+    },
+    "actions": {
+      "signUp": "הירשם"
+    },
+    "errors": {
+      "requiredName": "אנא הכנס/י שם מלא.",
+      "requiredEmail": "אנא הכנס/י אימייל תקין.",
+      "passwordLength": "הסיסמה חייבת להכיל לפחות 6 תווים.",
+      "passwordMismatch": "הסיסמאות אינן תואמות."
+    }
   }
 }

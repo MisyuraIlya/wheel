@@ -36,13 +36,11 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} dir={dir}>
       <head />
-      <body>
-        <NuqsAdapter>
-          <AppProvider locale={locale} dir={dir}>
-            {children}
-          </AppProvider>
-        </NuqsAdapter>
-      </body>
+      <NuqsAdapter>
+        <AppProvider locale={locale} dir={dir}>
+          {children}
+        </AppProvider>
+      </NuqsAdapter>
     </html>
   );
 }

@@ -1,7 +1,52 @@
-
 {
   "HomePage": {
     "title": "Hello world!",
     "about": "Go to the about page"
+  },
+  "LoginPage": {
+    "title": "Sign in to your account",
+    "fields": {
+      "email": "Email",
+      "password": "Password"
+    },
+    "actions": {
+      "login": "Login"
+    },
+    "errors": {
+      "required": "Email and password are required."
+    }
+  },
+  "ForgotPasswordPage": {
+    "title": "Forgot Password",
+    "fields": {
+      "email": "Email"
+    },
+    "actions": {
+      "sendLink": "Send Link"
+    },
+    "messages": {
+      "success": "Password reset link sent to your email address."
+    },
+    "errors": {
+      "required": "Please enter a valid email."
+    }
+  },
+  "SignUpPage": {
+    "title": "Sign Up",
+    "fields": {
+      "name": "Full Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password"
+    },
+    "actions": {
+      "signUp": "Sign Up"
+    },
+    "errors": {
+      "requiredName": "Please enter your full name.",
+      "requiredEmail": "Please enter a valid email.",
+      "passwordLength": "Password must be at least 6 characters.",
+      "passwordMismatch": "Passwords do not match."
+    }
   }
 }
