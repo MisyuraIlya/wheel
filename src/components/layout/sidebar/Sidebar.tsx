@@ -25,7 +25,7 @@ import BarChartIcon from "@mui/icons-material/BarChart";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import Link from "@/components/common/Link";
 
-const drawerWidth = 120;
+const drawerWidth = 125;
 
 const Sidebar: React.FC = () => {
   const theme = useTheme();
@@ -86,18 +86,6 @@ const Sidebar: React.FC = () => {
             </ListItemButton>
           ))}
         </List>
-      </Box>
-      <Divider />
-      <Box sx={{ p: 2 }}>
-        <ListItemButton component="a" sx={{ px: 2 }}>
-          <ListItemIcon sx={{ color: "text.primary" }}>
-            <AccountCircleIcon />
-          </ListItemIcon>
-          <ListItemText
-            primary="Logout"
-            primaryTypographyProps={{ fontSize: "1rem", fontWeight: 500 }}
-          />
-        </ListItemButton>
       </Box>
     </Box>
   );
