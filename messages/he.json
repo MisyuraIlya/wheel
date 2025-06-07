@@ -48,5 +48,29 @@
       "passwordLength": "הסיסמה חייבת להכיל לפחות 6 תווים.",
       "passwordMismatch": "הסיסמאות אינן תואמות."
     }
+  },
+  "Footer": {
+    "logo": "MyAppLogo",
+    "description": "MyApp הוא פתרון מוביל לניהול משלוחים והתראות. כאן תוכלו לנהל משתמשים, לעקוב אחר התראות וליהנות ממשלוח מהיר ובטוח.",
+    "quickLinksTitle": "קישורים מהירים",
+    "links": {
+      "home": "דף הבית",
+      "newDelivery": "משלוח חדש",
+      "users": "משתמשים",
+      "about": "אודות",
+      "contact": "צור קשר"
+    },
+    "contactTitle": "צרו קשר",
+    "phoneLabel": "טלפון:",
+    "phoneNumber": "+972-3-1234567",
+    "emailLabel": "אימייל:",
+    "emailAddress": "support@myapp.co.il",
+    "social": {
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com",
+      "linkedin": "https://linkedin.com",
+      "instagram": "https://instagram.com"
+    },
+    "rights": "כל הזכויות שמורות."
   }
 }

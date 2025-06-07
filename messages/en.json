@@ -48,5 +48,29 @@
       "passwordLength": "Password must be at least 6 characters.",
       "passwordMismatch": "Passwords do not match."
     }
+  },
+  "Footer": {
+    "logo": "MyAppLogo",
+    "description": "MyApp is a leading solution for managing deliveries and notifications. Here you can handle users, track alerts, and enjoy fast, secure shipping.",
+    "quickLinksTitle": "Quick Links",
+    "links": {
+      "home": "Home",
+      "newDelivery": "New Delivery",
+      "users": "Users",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "contactTitle": "Contact Us",
+    "phoneLabel": "Phone:",
+    "phoneNumber": "+972-3-1234567",
+    "emailLabel": "Email:",
+    "emailAddress": "support@myapp.co.il",
+    "social": {
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com",
+      "linkedin": "https://linkedin.com",
+      "instagram": "https://instagram.com"
+    },
+    "rights": "All rights reserved."
   }
 }
