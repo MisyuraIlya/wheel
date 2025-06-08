@@ -38,6 +38,7 @@ const Sidebar: React.FC = () => {
 
   const navItems = [
     { text: "Home", href: "/", icon: <HomeIcon /> },
+    { text: "Deliveries", href: "/deliveries", icon: <LocalShippingIcon /> },
     { text: "Store", href: "/store", icon: <StorefrontIcon /> },
     { text: "Routes", href: "/routes", icon: <RouteIcon /> },
     { text: "Orders", href: "/orders", icon: <LocalShippingIcon /> },
