@@ -80,7 +80,7 @@ const Header: React.FC = () => {
 
   return (
     <>
-      <AppBar position="static" color="primary" elevation={2} sx={{zIndex: (theme) => theme.zIndex.drawer + 1}}>
+      <AppBar position="static" color="primary" elevation={2}>
         <Toolbar sx={{ justifyContent: "space-between" }}>
           {/* Left side: logo and nav buttons */}
           <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>

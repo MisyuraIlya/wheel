@@ -12,7 +12,7 @@ export default function AppLayout({ children }: { children: ReactNode }) {
         }}
       >
         <Layout.Header />
-        <Layout.Sidebar/>
+        {/* <Layout.Sidebar/> */}
         <Layout.Navbar/>
         <main style={{ flexGrow: 1 }}>
           {children}

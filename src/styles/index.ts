@@ -209,6 +209,9 @@ const theme = createTheme({
   },
   components: {
     //HEADER
+    MuiDrawer: {
+
+    },
     MuiAppBar: {
       styleOverrides: {
         root: {
